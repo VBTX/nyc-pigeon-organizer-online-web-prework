@@ -2,7 +2,7 @@ def nyc_pigeon_organizer(data)
   pigeon_list = {}
   names = []
   subkeys = data.keys
-  
+
   subkeys.each do |elem|
     data[elem].each do |key, value|
     names << value
@@ -21,7 +21,7 @@ def nyc_pigeon_organizer(data)
 
     end
     end
-   
+
 end
 pigeon_list
 end
